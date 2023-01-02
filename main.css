@@ -30,12 +30,21 @@ body {
 
 .main-header > div {
 	display: inline-block;
+	vertical-align: middle;
+}
+
+.main-header__brand {
+	color: #0e4f1f;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 .main-nav {
 	display: inline-block;
 	text-align: right;
-	width: calc(100% - 55px);
+	vertical-align: middle;
+	width: calc(100% - 74px);
 }
 
 .main-nav__items {
