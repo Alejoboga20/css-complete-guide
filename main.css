@@ -60,10 +60,27 @@ body {
 
 .main-nav__item a {
 	color: #0e4f1f;
+	font-weight: bold;
 	text-decoration: none;
+	padding: 3px 0;
+}
+
+.main-nav__item--cta a {
+	color: white;
+	background-color: #ff1b68;
+	border-radius: 8px;
+	padding: 8px 16px;
 }
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
+	border-bottom: 5px solid white;
 	color: white;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+	background-color: white;
+	border: none;
+	color: #ff1b68;
 }
