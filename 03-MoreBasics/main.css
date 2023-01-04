@@ -41,6 +41,11 @@ body {
 }
 
 .plan__annotation {
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+	color: #19b84c;
+	padding: 8px;
 }
 
 .main-header {
