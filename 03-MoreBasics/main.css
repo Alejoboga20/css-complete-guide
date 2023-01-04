@@ -34,6 +34,15 @@ body {
 	vertical-align: middle;
 }
 
+.plan--highlighted {
+	background-color: #19b84c;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+.plan__annotation {
+}
+
 .main-header {
 	width: 100%;
 	background: #2ddf5c;
