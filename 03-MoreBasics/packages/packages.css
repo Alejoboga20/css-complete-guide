@@ -37,12 +37,25 @@ main {
 	padding: 16px;
 }
 
+.clearfix {
+	clear: both;
+}
+
 #plus {
 	background-color: rgba(213, 255, 220, 0.95);
 }
 
 #free {
 	background-color: rgba(235, 252, 237, 0.95);
+	border-left: 4px solid #0e4f1f;
+	border-right: none;
+	float: right;
+	text-align: right;
+}
+
+#free:hover,
+#free:active {
+	border-color: #ff5454;
 }
 
 #premium {
