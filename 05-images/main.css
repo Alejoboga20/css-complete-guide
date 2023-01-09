@@ -2,7 +2,7 @@
 	background-image: url('./images/freedom.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: left bottom;
+	background-position: left 10% bottom 20%;
 	width: 100%;
 	height: 528px;
 	padding: 10px;
