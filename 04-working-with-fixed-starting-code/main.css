@@ -18,6 +18,8 @@ body {
 	padding: 20px;
 	border: 5px solid black;
 	margin: 0;
+	position: relative;
+	overflow: hidden; /* It will hidde the element one it overflow it's parent */
 }
 
 .parent div {
@@ -36,4 +38,10 @@ body {
 	position: fixed;
 	top: 0;
 	width: 100%;
+}
+
+.parent .child-2 {
+	position: relative;
+	top: 10px;
+	left: 100px;
 }
