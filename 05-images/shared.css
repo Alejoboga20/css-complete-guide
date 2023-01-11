@@ -24,9 +24,15 @@ body {
 
 .main-header__brand {
 	color: #0e4f1f;
+	display: inline-block;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 22px;
+	height: 22px;
+}
+
+.main-header__brand img {
+	height: 100%;
 }
 
 .main-nav {
