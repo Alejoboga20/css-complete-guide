@@ -1,17 +1,10 @@
 #product-overview {
-	background-image: url('./images/freedom.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: left 10% bottom 20%;
-	background-origin: border-box;
-	background-clip: border-box;
-	background-attachment: fixed;
-	width: 100%;
+	background: url('./images/freedom.jpg') left 10% bottom 20% / cover no-repeat border-box fixed;
 	height: 528px;
-	padding: 10px;
 	margin-top: 43px;
+	padding: 10px;
 	position: relative;
-	border: 5px dashed red;
+	width: 100%;
 }
 
 .section-title {
