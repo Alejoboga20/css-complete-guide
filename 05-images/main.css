@@ -1,7 +1,7 @@
 #product-overview {
-	/* background: url('./images/freedom.jpg') left 10% bottom 20% / cover no-repeat border-box fixed;  */
-	/* background-image: linear-gradient(red 33%, blue 32%, yellow 65%); */
-	/* background-image: radial-gradient(circle, red 20px, blue 50px, green); */
+	background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+		url('./images/freedom.jpg') left 10% bottom 20% / cover no-repeat border-box fixed, #ff1b68;
+	/* Separate backgrounds for layer using commas */
 	height: 528px;
 	margin-top: 22px;
 	padding: 10px;
