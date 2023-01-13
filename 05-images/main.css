@@ -17,6 +17,10 @@
 #product-overview h1 {
 	color: white;
 	font-family: 'Anton', sans-serif;
+	position: absolute;
+	/* Percentage are relative to parent section + padding */
+	bottom: 5%;
+	left: 5%;
 }
 
 .plan__list {

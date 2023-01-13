@@ -11,6 +11,7 @@ body {
 	background: #2ddf5c;
 	padding: 8px 16px;
 	left: 0;
+	/* If position is fixed, then % units are relative to viewport (its containing block) */
 	position: fixed;
 	top: 0;
 	width: 100%;
