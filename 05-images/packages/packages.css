@@ -1,5 +1,6 @@
+/* 1rem = 16px */
 main {
-	padding-top: 32px;
+	padding-top: 2rem;
 }
 
 .background {
@@ -28,7 +29,7 @@ main {
 .package a {
 	color: inherit;
 	display: block;
-	padding: 32px;
+	padding: 2rem;
 	text-decoration: none;
 }
 
@@ -38,9 +39,9 @@ main {
 .package__badge {
 	background-color: #ff5454;
 	color: white;
-	font-size: 12px;
-	margin: 20px;
-	padding: 8px;
+	font-size: 0.8rem;
+	margin: 1.2rem;
+	padding: 0.5rem;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -54,8 +55,8 @@ main {
 	background-color: white;
 	border: 1px solid #0e4f1f;
 	color: #0e4f1f;
-	font-size: 20px;
-	padding: 16px;
+	font-size: 1.2rem;
+	padding: 1rem;
 }
 
 .clearfix {
