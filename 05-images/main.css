@@ -1,12 +1,12 @@
 #product-overview {
 	background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-		url('./images/freedom.jpg') left 10% bottom 20% / cover no-repeat border-box fixed, #ff1b68;
+		url('./images/freedom.jpg') left 10% bottom 70% / cover no-repeat border-box fixed, #ff1b68;
 	/* Separate backgrounds for layer using commas */
-	height: 528px;
+	height: 40vh;
 	margin-top: 22px;
 	padding: 10px;
 	position: relative;
-	width: 100%;
+	width: 100vw;
 }
 
 .section-title {
