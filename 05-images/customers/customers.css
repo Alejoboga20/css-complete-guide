@@ -14,10 +14,11 @@
 
 .testimonial__image-container {
 	/* If position is static or relative, the % is relative to its container content, not the padding */
-	width: 50%;
-	display: inline-block;
-	vertical-align: middle;
 	box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
+	display: inline-block;
+	max-width: 580px;
+	vertical-align: middle;
+	width: 65%;
 }
 
 .testimonial__image {
