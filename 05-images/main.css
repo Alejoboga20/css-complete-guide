@@ -1,6 +1,6 @@
 #product-overview {
 	background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-		url('./images/freedom.jpg') left 10% bottom 70% / cover no-repeat border-box fixed, #ff1b68;
+		url('./images/freedom.jpg') left 10% bottom 70% / cover no-repeat border-box, #ff1b68;
 	/* Separate backgrounds for layer using commas */
 	height: 40vh;
 	margin-top: 22px;
@@ -9,18 +9,30 @@
 	width: 100%;
 }
 
-.section-title {
-	color: #2ddf5c;
-	text-align: center;
-}
-
 #product-overview h1 {
 	color: white;
 	font-family: 'Anton', sans-serif;
+	font-size: 1.6rem;
 	position: absolute;
 	/* Percentage are relative to parent section + padding */
 	bottom: 5%;
 	left: 5%;
+}
+
+@media (min-width: 40rem) {
+	#product-overview {
+		background-position: 50% 25%;
+		height: 45vh;
+	}
+
+	#product-overview h1 {
+		font-size: 3rem;
+	}
+}
+
+.section-title {
+	color: #2ddf5c;
+	text-align: center;
 }
 
 .plan__list {
