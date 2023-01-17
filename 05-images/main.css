@@ -1,9 +1,9 @@
 #product-overview {
 	background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-		url('./images/freedom.jpg') left 10% bottom 70% / cover no-repeat border-box, #ff1b68;
+		url('./images/freedom.jpg') center/cover no-repeat border-box, #ff1b68;
 	/* Separate backgrounds for layer using commas */
-	height: 40vh;
-	margin-top: 22px;
+	height: 33vh;
+	margin-top: 4rem;
 	padding: 10px;
 	position: relative;
 	width: 100%;
@@ -22,7 +22,7 @@
 @media (min-width: 40rem) {
 	#product-overview {
 		background-position: 50% 25%;
-		height: 45vh;
+		height: 40vh;
 	}
 
 	#product-overview h1 {
@@ -35,25 +35,22 @@
 	text-align: center;
 }
 
-.plan__list {
-	margin: auto;
+/* .plan__list {
 	text-align: center;
-	width: 80%;
-}
+	width: 100%;
+} */
 
 .plan {
 	background-color: #d5ffdc;
-	display: inline-block;
-	margin: 8px;
+	margin: 0.5rem 0;
 	padding: 16px;
 	text-align: center;
-	width: 30%;
-	vertical-align: middle;
+	width: 100%;
 }
 
 .plan--highlighted {
 	background-color: #19b84c;
-	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+	/* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5); */
 	color: white;
 }
 
