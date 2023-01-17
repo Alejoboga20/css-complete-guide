@@ -6,7 +6,10 @@ const toggleButton = document.querySelector('.toggle-button');
 const mobileNav = document.querySelector('.mobile-nav');
 
 const closeModal = () => {
-	modal.classList.remove('open');
+	if (modal) {
+		modal.classList.remove('open');
+	}
+
 	backdrop.classList.remove('open');
 	mobileNav.classList.remove('open');
 };
@@ -18,7 +21,10 @@ for (let i = 0; i < selectPlanButton.length; i++) {
 	});
 }
 
-closeModalButton.addEventListener('click', closeModal);
+if (closeModalButton) {
+	closeModalButton.addEventListener('click', closeModal);
+}
+
 backdrop.addEventListener('click', closeModal);
 
 toggleButton.addEventListener('click', () => {
