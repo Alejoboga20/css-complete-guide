@@ -8,6 +8,11 @@ body {
 	margin: 0;
 }
 
+main {
+	min-height: calc(100vh - 3.5rem - 8rem);
+	margin-top: 3.5rem;
+}
+
 .backdrop {
 	background-color: rgba(0, 0, 0, 0.5);
 	position: fixed;
@@ -40,7 +45,7 @@ body {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 22px;
-	height: 33px;
+	height: 2.5rem;
 	vertical-align: middle;
 }
 

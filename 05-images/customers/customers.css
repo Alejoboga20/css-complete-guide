@@ -1,15 +1,10 @@
 /* 1rem = 16px */
-.testimonial {
-	font-size: 1.2rem;
+main {
+	padding-top: 2.5rem;
 }
 
-/* .testimonial__list {
-	width: 80%;
-	margin: auto;
-} */
-
-.testimonial:first-of-type {
-	margin-top: 6rem;
+.testimonial {
+	font-size: 1.2rem;
 }
 
 .testimonial__image-container {

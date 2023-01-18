@@ -1,6 +1,6 @@
 /* 1rem = 16px */
 main {
-	padding-top: 2rem;
+	padding-top: 2.5rem;
 }
 
 .background {
@@ -91,8 +91,9 @@ main {
 
 @media (min-width: 40rem) {
 	main {
-		margin: 3rem auto;
 		max-width: 1500px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 }
 

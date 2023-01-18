@@ -3,7 +3,6 @@
 		url('./images/freedom.jpg') center/cover no-repeat border-box, #ff1b68;
 	/* Separate backgrounds for layer using commas */
 	height: 33vh;
-	margin-top: 3.75rem;
 	padding: 10px;
 	position: relative;
 	width: 100%;
@@ -19,7 +18,7 @@
 	left: 5%;
 }
 
-@media (min-width: 40rem) and (min-height: 60rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
 	#product-overview {
 		background-position: 50% 25%;
 		height: 40vh;
