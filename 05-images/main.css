@@ -19,7 +19,7 @@
 	left: 5%;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 40rem) and (min-height: 60rem) {
 	#product-overview {
 		background-position: 50% 25%;
 		height: 40vh;
