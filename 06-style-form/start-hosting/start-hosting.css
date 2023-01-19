@@ -67,6 +67,13 @@ main {
 	width: 100%;
 }
 
+.signup-form input.invalid,
+.signup-form select.invalid,
+.signup-form :invalid {
+	border-color: red !important;
+	background-color: #faacac !important;
+}
+
 @media (min-width: 40rem) {
 	.signup-form {
 		margin: auto;
