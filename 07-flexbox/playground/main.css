@@ -17,7 +17,7 @@ body {
 .flex-container {
 	background: white;
 	border: 5px solid black;
-	display: inline-flex;
+	display: flex;
 	padding: 10px;
 }
 
