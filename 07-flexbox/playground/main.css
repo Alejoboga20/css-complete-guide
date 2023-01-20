@@ -24,6 +24,7 @@ body {
 	padding: 10px;
 	align-items: center;
 	justify-content: center;
+	align-content: space-around;
 }
 
 .item-1 {
