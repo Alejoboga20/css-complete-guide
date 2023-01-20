@@ -218,9 +218,12 @@ main {
 	width: 90%;
 	height: 100%;
 	list-style: none;
-	margin: 10% auto;
+	margin: 0;
 	padding: 0;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .mobile-nav__item {
