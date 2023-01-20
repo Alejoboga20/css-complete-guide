@@ -18,7 +18,12 @@ body {
 	background: white;
 	border: 5px solid black;
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 800px;
 	padding: 10px;
+	align-items: center;
+	justify-content: center;
 }
 
 .item-1 {
