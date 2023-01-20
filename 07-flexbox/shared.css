@@ -38,51 +38,44 @@ main {
 	height: 100vh;
 }
 
+/* If position is fixed, then % units are relative to viewport (its containing block) */
 .main-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	background: #2ddf5c;
 	padding: 8px 16px;
 	left: 0;
-	/* If position is fixed, then % units are relative to viewport (its containing block) */
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 1;
 }
 
-.main-header > div {
-	display: inline-block;
-	vertical-align: middle;
-}
-
 .main-header__brand {
 	color: #0e4f1f;
-	display: inline-block;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 22px;
+}
+
+.main-header__brand img {
 	height: 2.5rem;
 	vertical-align: middle;
 }
 
-.main-header__brand img {
-	height: 100%;
-}
-
 .main-nav {
 	display: none;
-	text-align: right;
-	width: calc(100% - 122px);
-	vertical-align: middle;
 }
 
 .main-nav__items {
+	display: flex;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
 .main-nav__item {
-	display: inline-block;
 	margin: 0 16px;
 }
 
@@ -206,7 +199,7 @@ main {
 		display: none;
 	}
 	.main-nav {
-		display: inline-block;
+		display: flex;
 	}
 }
 
