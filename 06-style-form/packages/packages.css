@@ -54,7 +54,10 @@ main {
 	color: #0e4f1f;
 	font-family: 'Ubuntu Mono', sans-serif;
 	font-size: 1.2rem;
+	line-height: 2;
 	padding: 1rem;
+	text-decoration: underline dotted;
+	text-shadow: 5px 5px 7px #ccc;
 }
 
 .clearfix {
