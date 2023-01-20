@@ -2,6 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto: 100i,400,900');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+@font-face {
+	font-family: 'Ubuntu Mono';
+	src: url('./fonts/UbuntuMono-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Ubuntu Mono';
+	src: url('./fonts/UbuntuMono-Bold.ttf');
+	font-weight: 700;
+}
+
 * {
 	box-sizing: border-box;
 }

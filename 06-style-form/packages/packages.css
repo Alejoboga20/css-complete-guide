@@ -52,11 +52,9 @@ main {
 	background-color: white;
 	border: 1px solid #0e4f1f;
 	color: #0e4f1f;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Ubuntu Mono', sans-serif;
 	font-size: 1.2rem;
 	padding: 1rem;
-	font-weight: 900;
-	font-style: italic;
 }
 
 .clearfix {
