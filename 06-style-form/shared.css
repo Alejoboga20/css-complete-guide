@@ -4,12 +4,12 @@
 
 @font-face {
 	font-family: 'Ubuntu Mono';
-	src: url('./fonts/UbuntuMono-Regular.ttf');
+	src: url('./fonts/UbuntuMono-Regular.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'Ubuntu Mono';
-	src: url('./fonts/UbuntuMono-Bold.ttf');
+	src: url('./fonts/UbuntuMono-Bold.ttf') format('truetype');
 	font-weight: 700;
 }
 
