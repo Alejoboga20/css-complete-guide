@@ -1,0 +1,82 @@
+main {
+	padding-top: 2.5rem;
+}
+
+.signup-title {
+	color: #ff5454;
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+.signup-form {
+	padding: 1rem;
+}
+
+.signup-form label {
+	font-weight: bold;
+}
+
+.signup-form label,
+.signup-form input,
+.signup-form select {
+	display: block;
+	margin-top: 1rem;
+	width: 100%;
+}
+
+.signup-form input[id*='terms'],
+.signup-form input[id*='terms'] + label {
+	display: inline-block;
+	width: auto;
+	vertical-align: middle;
+}
+
+.signup-form input[type='checkbox'] {
+	border: 1px solid #ccc;
+	background-color: white;
+	width: 1rem;
+	height: 1rem;
+
+	--webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.signup-form input[type='checkbox']:checked {
+	background-color: #2ddf5c;
+	border: #0e4f1f;
+}
+
+.signup-form input:not([type='checkbox']),
+.signup-form select {
+	border: 1px solid #ccc;
+	font: inherit;
+	padding: 0.2rem 0.5rem;
+}
+
+.signup-form input:focus:not([type='checkbox']),
+.signup-form select:focus {
+	background-color: #d8f3df;
+	border-color: #2ddf5c;
+	outline: none;
+}
+
+.signup-form button[type='submit'] {
+	display: block;
+	margin-top: 1rem;
+	width: 100%;
+}
+
+.signup-form input.invalid,
+.signup-form select.invalid,
+.signup-form :invalid {
+	border-color: red !important;
+	background-color: #faacac !important;
+}
+
+@media (min-width: 40rem) {
+	.signup-form {
+		margin: auto;
+		width: 25rem;
+	}
+}
