@@ -1,8 +1,11 @@
 .container {
 	display: grid;
 	margin: 20px;
-	grid-template-columns: 200px 150px 20% 1fr;
-	grid-template-rows: 5rem 2.5rem;
+	height: 300px;
+	/* grid-template-columns: 200px 5rem 20% auto; */
+	grid-template-columns: repeat(4, 25%);
+	grid-template-rows: 5rem minmax(10px, 200px);
+	/* grid-template-rows: 5rem auto; */
 	/* grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
 
