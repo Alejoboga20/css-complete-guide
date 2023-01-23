@@ -7,22 +7,28 @@
 	/* grid-column-gap: 8px;
 	grid-row-gap: 16px; */
 	gap: 16px 8px;
+	grid-template-areas:
+		'header header header header'
+		'side side main main'
+		'footer footer footer footer';
 }
 
 .el1 {
 	background: rgba(255, 154, 72, 0.5);
+	grid-area: main;
 }
 
 .el2 {
 	background: rgba(255, 0, 0, 0.5);
-	grid-column: 1 / -1; /* Short hand */
+	grid-area: side;
 }
 
 .el3 {
 	background: rgba(0, 128, 0, 0.5);
-	grid-area: 1 / 2 / 3 / span 3;
+	grid-area: header;
 }
 
 .el4 {
 	background: rgba(0, 4, 255, 0.5);
+	grid-area: footer;
 }
