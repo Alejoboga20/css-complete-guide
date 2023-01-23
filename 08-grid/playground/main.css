@@ -15,16 +15,12 @@
 
 .el2 {
 	background: rgba(255, 0, 0, 0.5);
-	grid-column-start: 1;
-	grid-column-end: -1;
+	grid-column: 1 / -1; /* Short hand */
 }
 
 .el3 {
 	background: rgba(0, 128, 0, 0.5);
-	grid-column-start: 2;
-	grid-column-end: span 3;
-	grid-row-start: 1;
-	grid-row-end: 3;
+	grid-area: 1 / 2 / 3 / span 3;
 }
 
 .el4 {
