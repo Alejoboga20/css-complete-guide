@@ -4,6 +4,7 @@ const modal = document.querySelector('.modal');
 const closeModalButton = document.querySelector('.modal__action--negative');
 const toggleButton = document.querySelector('.toggle-button');
 const mobileNav = document.querySelector('.mobile-nav');
+const ctaButton = document.querySelector('.main-nav__item--cta');
 
 const closeModal = () => {
 	if (modal) {
@@ -42,4 +43,16 @@ toggleButton.addEventListener('click', () => {
 	setTimeout(() => {
 		backdrop.classList.add('open');
 	}, 10);
+});
+
+ctaButton.addEventListener('animationstart', (event) => {
+	console.log('animationstart', { event });
+});
+
+ctaButton.addEventListener('animationend', (event) => {
+	console.log('animationend', { event });
+});
+
+ctaButton.addEventListener('animatioiteration', (event) => {
+	console.log('animatioiteration', { event });
 });
