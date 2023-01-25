@@ -28,8 +28,10 @@ main {
 }
 
 .backdrop {
-	position: fixed;
 	display: none;
+	position: fixed;
+	opacity: 0;
+	transition: opacity 200ms linear;
 	top: 0;
 	left: 0;
 	z-index: 100;
