@@ -48,9 +48,8 @@ body {
 
 .section-header {
   border-bottom: 0.05rem solid #521751; }
-
-.section-header h1 {
-  margin: 0 0 1rem 0; }
+  .section-header h1 {
+    margin: 0 0 1rem 0; }
 
 .documentation-links {
   list-style: none;
@@ -70,8 +69,7 @@ body {
     display: block;
     padding: 0.2rem;
     border: 0.05rem solid #521751; }
-  .documentation-links .documentation-link:hover,
-  .documentation-links .documentation-link:active {
+  .documentation-links .documentation-link:hover, .documentation-links .documentation-link:active {
     color: white;
     background: #fa923f;
     border-color: #fa923f; }
