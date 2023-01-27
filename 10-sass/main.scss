@@ -29,12 +29,11 @@ body {
 	}
 }
 
-.sass-introduction {
+.sass-section {
 	border: $border-default;
 	background: lighten($color: map-get($colors, main), $amount: 72%);
 	padding: 2rem;
 	text-align: center;
-	box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
 	width: 90%;
 	box-sizing: border-box;
 
@@ -43,18 +42,18 @@ body {
 	}
 }
 
+.sass-introduction {
+	@extend .sass-section;
+	box-shadow: 0.2rem 0.2rem 0.1rem #ccc;
+}
+
 .sass-introduction p {
 	margin: 0;
 }
 
 .sass-details {
-	border: $border-default;
-	background: lighten($color: map-get($colors, main), $amount: 72%);
-	padding: 1rem;
-	text-align: center;
+	@extend .sass-section;
 	margin: $size-default * 2 0;
-	width: 90%;
-	box-sizing: border-box;
 }
 
 .section-header {
